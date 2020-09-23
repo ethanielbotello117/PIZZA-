@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="" method="post"></form>
+    <section>
+        <fieldset>
+            <legend>User Information</legend>
+            <ul>
+                <label for="username"></label>
+                <li>Username<input type="text" id="username" name="user.login" ></li>
+
+                <label for="password"></label>
+                <li>Password <input hiddentype="text" id="password" name="user.pw"></li>
+            
+            </ul>
+        </fieldset>
+    </section>
+
+    <section>
+        <fieldset>
+            <legend>What drink do you want?</legend>
+            <ul>
+                <label for="coke"></label>
+                <li><input type=radio id="coke" name="user.drink" >Coke</li>
+
+                <label for="dcoke"></label>
+                <li><input type="radio" id="dcoke" name="user.drink">Diet Coke</li>
+
+                <label for="sprite"></label>
+                <li><input type="radio" id="sprite" name="user.drink">Sprite</li>
+                
+
+                <label for="water"></label>
+                <li><input type="radio" id="water" name="user.drink">Water</li>
+            </ul>
+        </fieldset>
+    </section>
+
+    <section>
+        <fieldset>
+            <legend>Pizza Preference</legend>
+            <ul>
+                <label for="toppings"></label>
+                <li><input type="checkbox" id="toppings" name="user.toppings.lame">Plain</li>
+                <li><input type="checkbox" id="toppings" name="user.toppings.pepperoni">Pepperoni</li>        
+                <li><input type="checkbox" id="toppings" name="user.toppings.chicken">Chicken</li>
+                <li><input type="checkbox" id="toppings" name="user.toppings.sausage">sausage</li>
+            </ul>
+        </fieldset>
+    </section>
+
+    <section>
+        <fieldset>
+            <legend>Special Instructions</legend>
+            <ul>
+                <label for="instructions"></label>
+                <li>Special Instructions</li>
+                </li><textarea name="user.instruct" id="instructions" cols="35" rows="15"></textarea>
+            </ul>
+
+            <button type="submit">Submit</button>
+        </fieldset>
+    </section>
+</body>
+</html>
