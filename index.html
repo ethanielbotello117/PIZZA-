@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Ethaniel Botello">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+
+
+    <title>Pizza</title>
 </head>
 <body>
     
-    <form action="" method="post"></form>
+    <form action="data.json" method="post"></form>
     <section>
         <fieldset>
             <legend>User Information</legend>
@@ -16,7 +20,7 @@
                 <li>Username<input type="text" id="username" name="user.login" ></li>
 
                 <label for="password"></label>
-                <li>Password <input hiddentype="text" id="password" name="user.pw"></li>
+                <li>Password <input hiddentype="text" type="password" id="password" name="user.pw"></li>
             
             </ul>
         </fieldset>
@@ -63,8 +67,7 @@
                 <li>Special Instructions</li>
                 </li><textarea name="user.instruct" id="instructions" cols="35" rows="15"></textarea>
             </ul>
-
-            <button type="submit">Submit</button>
+            <button type="button">Submit</button>
         </fieldset>
     </section>
 </body>
