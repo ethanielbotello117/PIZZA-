@@ -1,0 +1,77 @@
+
+
+html, body{
+    margin: 0;
+    page-break-after: 0;
+}
+
+html{
+    font-size: 10px;
+    background-color: #CCC;
+}
+
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* form settings */
+
+form{
+    margin: 0 auto;
+    width: 400px;
+    /* form outline */
+    padding: 1em;
+    border: 1px solid #CCC;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li+li{
+    margin-top: 1em;
+}
+
+label{
+    /* uniform slide and alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+.button{
+
+    padding-left: 90px;
+    /* this needs to be the same size as the label element */
+}
+
+button{
+    /* this extra margin represents roughly the saem space as the space between the labels and their text fields */
+    margin-left: .5em;
+}
+
+input, text-area{
+    /* to make sure all text fields have text areas by default */
+    font: 1em sans-serif;
+
+    width: 300px;
+    box-sizing: border-box;
+
+    /* match form */
+    border: 1px solid #c9c9c9;
+}
+
+input:focus, textarea:focus{
+    border-color: black;
+}
+
+textarea{
+    /* align faulty line text fields */
+    vertical-align: top;
+
+    /* provide text space */
+    height: 5em;
+}
